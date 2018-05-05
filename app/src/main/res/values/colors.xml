@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <!-- app palette -->
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/grey</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="background">@color/black</color>
+
+    <!-- branding :v -->
+    <color name="awesomeRed">#D81B60</color>
+
+    <!-- default colours -->
+    <color name="white">#fff</color>
+    <color name="grey">#eee</color>
+    <color name="black">#000</color>
 
 </resources>
