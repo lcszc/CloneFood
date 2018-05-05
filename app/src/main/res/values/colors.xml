@@ -4,12 +4,12 @@
     <!-- app palette -->
     <color name="colorPrimary">@color/white</color>
     <color name="colorPrimaryDark">@color/grey</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">@color/awesomeRed</color>
 
     <color name="background">@color/black</color>
 
     <!-- branding :v -->
-    <color name="awesomeRed">#D81B60</color>
+    <color name="awesomeRed">#ea1d2c</color>
 
     <!-- default colours -->
     <color name="white">#fff</color>
