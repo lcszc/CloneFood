@@ -1,20 +1,9 @@
 <resources>
 
     <style name="CloneFood" parent="Theme.AppCompat.Light.NoActionBar">
-        <!--
-                API < 23 doesn't support light status bar
-                So is bad approach to use white as our primary color.
-                Because the status bar icons will be visible if we use this.
-
-                So, we will reverse our layout =D
-
-                API >= 23 -> Use white as primary color and light status bar
-                API <  23 -> Use red as primary color and normal status bar
-
-        -->
-        <item name="colorPrimary">@color/awesomeRed</item>
-        <item name="colorPrimaryDark">@color/awesomeRed</item>
-        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
         <!--
                 Our magic goes here
@@ -26,6 +15,7 @@
                 the effect of iFood's rounded layouts.
         -->
 
+        <item name="android:windowLightStatusBar">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:colorBackground">@color/black</item>
         <item name="android:windowBackground">@color/black</item>

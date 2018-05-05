@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text colours -->
+    <color name="textPrimary">@color/black</color>
+    <color name="textSecondary">@color/grey_600</color>
+    <color name="textAccent">@color/colorPrimary</color>
+
+    <color name="textButton">@color/awesomeRed</color>
+
+</resources>
