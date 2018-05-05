@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "corey88.clonefood"
         versionCode 1
-        versionName "1.0"
+        versionName "Cheeseburguer"
 
         minSdkVersion sdk.minimum
         targetSdkVersion sdk.target
