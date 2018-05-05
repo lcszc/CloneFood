@@ -1,9 +1,23 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    <style name="CloneFood" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!--
+                Our magic goes here
+                Setting those attrs as below we will be able to see a full black screen in our app's background.
+                This is needed because if we do not do that and create our rounded layouts, the background view
+                will use the default that depends on the selected theme (Light or Dark).
+
+                This is not good and we need to fill the background using the black color to create
+                the effect of iFood's rounded layouts.
+        -->
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
     </style>
 
 </resources>
