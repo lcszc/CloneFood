@@ -15,7 +15,7 @@
                 the effect of iFood's rounded layouts.
         -->
 
-        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:colorBackground">@color/black</item>
         <item name="android:windowBackground">@color/black</item>
     </style>
